@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "614C3A4A-E001-4B3F-827B-511BD2F5858E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8AA3EFD5-655D-4A8E-8218-F0C139726F43"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pokedex/View/FavoritesPokemonView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "FavoritesPokemonView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "8AA3EFD5-655D-4A8E-8218-F0C139726F43 - 46f01c2c40cb7f02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pokedex.FavoritesPokemonView.pokemon.getter : SwiftUI.FetchedResults&lt;Pokedex.PokemonCoreData&gt;"
+                  moduleName = "Pokedex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maria/Documents/projetosIOS/Pokedex/Pokedex/View/FavoritesPokemonView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "8AA3EFD5-655D-4A8E-8218-F0C139726F43 - 765d5cd4b53f33b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pokedex.FavoritesPokemonView.$pokemon.getter : SwiftUI.Binding&lt;SwiftUI.FetchRequest&lt;Pokedex.PokemonCoreData&gt;.Configuration&gt;"
+                  moduleName = "Pokedex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maria/Documents/projetosIOS/Pokedex/Pokedex/View/FavoritesPokemonView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "8AA3EFD5-655D-4A8E-8218-F0C139726F43 - edba06de6eec666f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Pokedex.FavoritesPokemonView.init() -&gt; Pokedex.FavoritesPokemonView"
+                  moduleName = "Pokedex"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maria/Documents/projetosIOS/Pokedex/Pokedex/View/FavoritesPokemonView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "6"
+                  endingLineNumber = "6"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
