@@ -11,7 +11,7 @@ struct PokemonFavoriteCell: View {
     var body: some View {
         HStack {
             TextTitle(
-                text: pokemon.name ?? "",
+                text: pokemon.name?.capitalized ?? "",
                 alignment: .leading,
                 foreground: Color(Colors.green.rawValue),
                 size: FontSize.titleCell.rawValue

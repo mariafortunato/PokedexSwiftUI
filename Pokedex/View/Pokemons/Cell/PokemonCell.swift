@@ -7,6 +7,7 @@ struct PokemonCell: View {
 
     let pokemon: PokemonModel?
     @State var star = "star"
+    @State var alertIsFavorite: Bool = false
     
     var body: some View {
 
@@ -19,6 +20,7 @@ struct PokemonCell: View {
                 )
                 
                 Button {
+                    
                     favoritar(name: pokemon?.name ?? "", url: pokemon?.url ?? "", isFavorite: setStar())
 
                 } label: {
@@ -27,10 +29,12 @@ struct PokemonCell: View {
                 .accentColor(Color(Colors.yellow.rawValue))
                 
             }
+            .alert("Pokémon already added to favorites", isPresented: $alertIsFavorite, actions: {})
             .padding()
             .onAppear() {
                 setStar()
             }
+            
     }
 
     func setStar() -> Bool {
@@ -50,7 +54,7 @@ struct PokemonCell: View {
         if pokemonCoreData.contains(where: { $0.name == pokemon?.name }) == false {
             DataController().favorite(name: name, url: url, isFavorite: isFavorite, context: managedObjectContext)
         } else {
-            print("Pokemon já favoritado")
+            alertIsFavorite = true
         }
     }
 }

@@ -1,21 +1,18 @@
 import SwiftUI
 
 struct ContentView: View {
-
+    
     var body: some View {
-        
-        NavigationView {
-            TabView {
-                PokemonsListView()
-                    .tabItem {
-                        Label("Menu", systemImage: "list.dash")
-                    }
-                FavoritesPokemonView()
-                    .tabItem {
-                        Label("Favorite", systemImage: "star")
-                    }
-            }
-        }        
+        TabView {
+            PokemonsListView()
+                .tabItem {
+                    Label("Pokémons", image: "pokebola (3)")
+                }
+            FavoritesPokemonView()
+                .tabItem {
+                    Label("Favorites", image: "estrela")
+                }
+        }
     }
 }
 

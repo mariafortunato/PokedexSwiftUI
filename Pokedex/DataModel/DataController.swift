@@ -34,16 +34,9 @@ class DataController: ObservableObject {
         
     }
     
-    func deleteFavorite(offset: IndexSet, context: NSManagedObjectContext, pokemon: FetchedResults<PokemonCoreData>) {
-        
-        offset.map { pokemon[$0] }.forEach(context.delete)
-        
-        save(context: context)
-    }
-    
     func deleteFavoritePokemon(pokemon: FetchedResults<PokemonCoreData>.Element, context: NSManagedObjectContext) {
-        context.delete(pokemon)
         
+        context.delete(pokemon)
         save(context: context)
     }
 }
