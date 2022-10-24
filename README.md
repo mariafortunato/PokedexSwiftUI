@@ -1,8 +1,3 @@
 #  Pokédex com SwiftUI
 
-<video width="320" height="240" autoplay>
-<source src="https://github.com/mariafortunato/PokedexSwiftUI/blob/main/gravacaoTela.mp4" type="video/mp4">
-</video>
-
-<img src="https://github.com/mariafortunato/PokedexSwiftUI/blob/main/gravacaoTela.mp4" />
-https://github.com/mariafortunato/PokedexSwiftUI/blob/main/gravacaoTela.mp4
+### A interface do aplicativo foi feita em SwiftUI, e a parte de salvar os pokémons em favoritos com CoreData.
