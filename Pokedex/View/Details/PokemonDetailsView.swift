@@ -35,12 +35,12 @@ struct PokemonDetailsView: View {
                             ForEach(0..<1 ) { index in
                                 AsyncImage(
                                     url: URL(
-                                        string: viewModel.pokemonDetail?.sprites.other.home.front_default ?? "")
+                                        string: viewModel.pokemonDetail?.sprites.other.home.front_default ?? "https://cdn-icons-png.flaticon.com/512/1695/1695213.png")
                                 )
                                 .scaleEffect(0.5)
                                 AsyncImage(
                                     url: URL(
-                                        string: viewModel.pokemonDetail?.sprites.other.home.front_shiny ?? "")
+                                        string: viewModel.pokemonDetail?.sprites.other.home.front_shiny ?? "https://cdn-icons-png.flaticon.com/512/1695/1695213.png")
                                 )
                                 .scaleEffect(0.5)
                             }
@@ -125,12 +125,8 @@ struct PokemonDetailsView: View {
         .onAppear {
             // quando a tela aparecer, buscar os dados da API
             viewModel.fetchDetailPokemon(url: url)
-            
         }
-        .toolbar(.hidden, for: .tabBar)
     }
-    
-    
 }
 
 struct PokemonDetails_Previews: PreviewProvider {

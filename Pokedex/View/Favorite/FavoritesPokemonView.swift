@@ -25,10 +25,8 @@ struct FavoritesPokemonView: View {
                     }
                 }
             }
-            .onAppear() {
-                print(pokemon)
-            }
             .accentColor(Color(Colors.green.rawValue))
+            .navigationTitle("")
         }
     }
 }

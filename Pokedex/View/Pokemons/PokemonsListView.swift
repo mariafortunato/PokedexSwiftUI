@@ -42,11 +42,8 @@ struct PokemonsListView: View {
                     }
                 }
             }
+            .navigationTitle("")
         }
-        
-    }
-    func totalPages() -> Int {
-        return (1154/selectedValue) + 1
     }
 }
 

@@ -26,15 +26,14 @@ struct PokemonFavoriteCell: View {
         }
         .padding()
     }
+    
     func noFavorite() {
         DataController().deleteFavoritePokemon(pokemon: pokemon, context: managedObjectContext)
     }
-    
-    
 }
-
+//
 //struct PokemonDetailCell_Previews: PreviewProvider {
 //    static var previews: some View {
-//        PokemonDetailCell()
+//        PokemonFavoriteCell(pokemon: )
 //    }
 //}
